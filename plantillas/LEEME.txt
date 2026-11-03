@@ -1,0 +1,5 @@
+Plantilla de imagen 1080x1350 para publicaciones de Giaquinta Asesores de Seguros.
+Reemplazar: {{TAG}} (etiqueta en mayusculas, ej. EMPRESAS, AUTO, HOGAR), {{TITLE}}, {{SUBTITLE}},
+{{ITEMS}} (3 a 5 elementos <li><span><b>Frase clave</b> resto.</span></li>), {{ICON_SVG}} (svg de linea width/height 58, stroke #004aad, viewBox 0 0 24 24).
+Render: Chromium headless (pip install 'playwright>=1.49' y python -m playwright install --with-deps chromium), viewport 1100x1400,
+esperar document.fonts.ready, screenshot del elemento #post, guardar JPEG calidad 88.
